@@ -8,7 +8,7 @@ const handleChange = (value: string) => {
 const subjectFilter: React.FC = () => (
   
     <Select
-      defaultValue="Subject"
+      defaultValue="Science"
       className='pl-7 w-full'
       style={{ width: 150 }}
       onChange={handleChange}
