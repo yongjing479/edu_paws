@@ -39,8 +39,9 @@ const App: React.FC = () => {
     
     <div className='flex flex-row bg-white border'>
       <img src="logoIcon.png" alt="logo" className="w-8 h-8 ml-5 mt-5" />
+      <Link href="/">
       <div className="px-2 pt-5 text-2xl text-indigo-900 font-bold ">EduPaws</div>
-
+      </Link>
       <Menu
         onClick={onClick}
         selectedKeys={[current]}
