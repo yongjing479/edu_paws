@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "antd": "^5.10.1"
+    "antd": "^5.10.1",
+    "react-countup": "^6.4.2"
   }
 }

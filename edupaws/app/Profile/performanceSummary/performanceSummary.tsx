@@ -61,11 +61,7 @@ const performanceSummary: React.FC = () => (
     <SubjectFilter />
     <Table className="p-4 " columns={columns} dataSource={data} size="small" />
     <AnimatedNumber/>
-    {/* <div className="p-4 text-teal-800 text-l font-medium mr-auto">
-      <h3 className="mb-2">Quiz (min)</h3>
-      <h3 className="mb-2">Average Scores (%) </h3>
-      <h3>Total Study Hours (hr) </h3>
-    </div> */}
+   
   </>
 );
 
