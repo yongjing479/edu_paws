@@ -1,14 +1,15 @@
-
-import React, { useState } from 'react'
-import { Tabs } from 'antd';
-import PerformanceSummary from './performanceSummary';
-import TutorRecommendation from './tutorRecommendation';
-
+import React, { useState } from "react";
+import { Tabs } from "antd";
+import PerformanceSummary from "./performanceSummary";
+import TutorRecommendation from "../tutorRecommendation";
 
 const defaultPanes = [
-  { label: 'Performance Summary', children: <PerformanceSummary />, key: '1' },
-  { label: 'AI Tutor Recommendtion', children: <TutorRecommendation />, key: '2' },
-  
+  { label: "Performance Summary", children: <PerformanceSummary />, key: "1" },
+  {
+    label: "AI Tutor Recommendtion",
+    children: <TutorRecommendation />,
+    key: "2",
+  },
 ];
 
 function summaryContainer() {
@@ -36,7 +37,7 @@ function summaryContainer() {
         />
       </div>
     </div>
-  )
+  );
 }
 
 export default summaryContainer;
