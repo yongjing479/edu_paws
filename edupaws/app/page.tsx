@@ -8,7 +8,15 @@ export default function Home() {
     <div className="flex flex-col">
       <NavBar />
       <div className="flex flex-col items-center justify-center">
-        <img src="pet1.png" className="w-21 h-21 mb-5" />
+        {/* <img src="pet1.png" className="w-21 h-21 mb-5" /> */}
+
+        <div className="w-1/5 aspect-square relative">
+          <img
+            className="w-full h-full object-cover"
+            src="pet1.png"
+          />
+        </div>
+
         <h1 className="font-bold text-violet-900 text-3xl mb-1">Baddie</h1>
         <p className="font-medium text-violet-900 text-sm">Level 1</p>
       </div>
