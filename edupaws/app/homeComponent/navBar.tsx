@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { StarOutlined, BarsOutlined, CommentOutlined, SettingOutlined, LogoutOutlined, UserOutlined, BellOutlined } from '@ant-design/icons';
+import { StarOutlined, BarsOutlined, CommentOutlined, LogoutOutlined, UserOutlined, BellOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import Link from 'next/link';
 
@@ -60,15 +60,15 @@ const App: React.FC = () => {
       </Menu>
 
       <div className="ml-auto flex items-center ">
-        <Link href="/" className="text-xl mr-8 hover:scale-110 transition-transform">
+        <Link href="/" className="text-indigo-900 text-xl mr-8 hover:scale-110 transition-transform">
           <BellOutlined className="hover:after:bg-purple-500 hover:after:opacity-40 hover:after:scale-110" />
         </Link>
 
-        <Link href="/Profile" className="text-xl mr-8 hover:scale-110 transition-transform">
+        <Link href="/Profile" className="text-indigo-900 text-xl mr-8 hover:scale-110 transition-transform">
           <UserOutlined className="hover:after:bg-purple-500 hover:after:opacity-40 hover:after:scale-110" />
         </Link>
 
-        <Link href="/" className="text-xl pr-10 hover:scale-110 transition-transform">
+        <Link href="/" className="text-indigo-900 text-xl pr-10 hover:scale-110 transition-transform">
           <LogoutOutlined className="hover:after:bg-purple-500 hover:after:opacity-40 hover:after:scale-110" />
         </Link>
       </div>
