@@ -18,8 +18,8 @@ const items = [
   {
     label: 'Paws',
     key: 'paws',
-    icon: <SettingOutlined style={{ fontSize: '18px' }}/>,
-  },
+    icon: <img src='bluepurplepaws.png' alt="Paws" style={{ width: '28px' ,height:'16px'}} />,
+  },  
   {
     label: 'Discussion',
     key: 'discussion',
