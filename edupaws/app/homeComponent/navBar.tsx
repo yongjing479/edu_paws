@@ -65,7 +65,7 @@ const App: React.FC = () => {
         </Link>
 
         <Link href="/Profile" className="text-xl mr-8 hover:scale-110 transition-transform">
-          <UserOutlined className="hover:after:bg-purple-500 hover:after:opacity-40 hover:after:scale-110" />
+          <UserOutlined className="hover:after:bg-purple-500 hover:after:opacity-40 hover:after:scale-110 fill-black" />
         </Link>
 
         <Link href="/" className="text-xl pr-10 hover:scale-110 transition-transform">
