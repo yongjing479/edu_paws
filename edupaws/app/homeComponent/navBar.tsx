@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { StarOutlined, BarsOutlined, TeamOutlined, SettingOutlined, LogoutOutlined, UserOutlined, BellOutlined } from '@ant-design/icons';
+import { StarOutlined, BarsOutlined, CommentOutlined, SettingOutlined, LogoutOutlined, UserOutlined, BellOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import Link from 'next/link';
 
@@ -23,7 +23,7 @@ const items = [
   {
     label: 'Discussion',
     key: 'discussion',
-    icon: <TeamOutlined style={{ fontSize: '18px' }}/>,
+    icon: <CommentOutlined style={{ fontSize: '18px' }}/>,
   },
 ];
 
