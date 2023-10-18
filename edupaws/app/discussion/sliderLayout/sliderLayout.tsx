@@ -72,7 +72,7 @@ const App: React.FC = () => {
         </Content>
 
         
-          <div className="pb-10  mb-10 ml-auto pr-20">
+          <div className="pb-8 pt-7  mb-10 ml-auto pr-20">
              
               <Avatar
                 onClick={showModal}
