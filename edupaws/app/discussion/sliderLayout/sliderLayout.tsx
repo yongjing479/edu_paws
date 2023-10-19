@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CaretRightOutlined , PlusOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
-import {  Layout, Menu, theme , Avatar, Modal ,  Input} from 'antd';
+import {  Layout, Menu, theme , Avatar, Modal ,  Input, Button} from 'antd';
 import DiscussionCard from '../DiscussionCard/discussionCard';
 
 const {  Content, Sider } = Layout;
@@ -80,14 +80,21 @@ const App: React.FC = () => {
                 icon={<PlusOutlined />} 
                 style={{ backgroundColor: '#8D6CC8' }} 
               />
-                        
+           
             <Modal
-              title="Create Discussion"
-              visible={isModalOpen}
-              onOk={handleOk}
-              onCancel={handleCancel}
-             
-            > 
+                title="Create Discussion"
+                visible={isModalOpen}
+                onOk={handleOk}
+                onCancel={handleCancel}
+                footer={[
+                  <Button key="cancel" onClick={handleCancel}>
+                    Cancel
+                  </Button>,
+                  <Button key="create"  onClick={handleOk} className="bg-violet-950 text-white custom-ok-button hover:bg-white">
+                    Create
+                  </Button>,
+                ]}
+              >
                 <h3>Question</h3>
                 <TextArea rows={4} placeholder="Type your question here" />
             </Modal>
