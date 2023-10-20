@@ -1,16 +1,15 @@
-"use client"
-import React from 'react'
-import NavBar from '../homeComponent/navBar'
-import SliderLayout from './sliderLayout/sliderLayout'
-
+"use client";
+import React from "react";
+import NavBar from "../home/navBar";
+import SliderLayout from "./sliderLayout/sliderLayout";
 
 function page() {
   return (
     <div>
-      <NavBar/>     
-      <SliderLayout/>
+      <NavBar />
+      <SliderLayout />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

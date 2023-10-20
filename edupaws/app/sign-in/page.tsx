@@ -18,9 +18,11 @@ const page = () => {
             
         </form>
         <div className='flex flex-col gap-4 '>
-          <button style={{ backgroundColor: '#9C4DF4',margin:'30px 0' }} className="text-white p-3 rounded-lg uppercase hover:opacity-95">
-  Log In
-</button>
+          <Link href="home">
+            <button style={{ backgroundColor: '#9C4DF4',margin:'30px 0' }} className="text-white p-3 rounded-lg uppercase hover:opacity-95">
+              Log In
+            </button>
+          </Link>
 </div>
         
         
