@@ -7,6 +7,7 @@ import {
   BankOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
+import { Button } from "antd";
 
 function profileCointainer() {
   return (
@@ -54,6 +55,9 @@ function profileCointainer() {
             style={{ fontSize: "25px" }}
           />
         </Link>
+      </div>
+      <div className="absolute bottom-0 right-0 mr-10 mb-5">
+        <Button className="bg-amber-400 text-sm font-bold text-purple-800 hover:bg-white hover:text-purple-800">Class Joined</Button>
       </div>
     </div>
   );
