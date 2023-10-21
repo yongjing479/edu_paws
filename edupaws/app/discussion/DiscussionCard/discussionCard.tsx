@@ -7,7 +7,7 @@ import Reply from './reply';
 function discussionCard() {
   return (
     <> 
-        <div className="flex flex-col ">
+        <div className="flex flex-col text-indigo-950">
                 <h3 className='font-semibold text-lg mb-2 ml-2'>Question 1 </h3>
                 <div className='bg-violet-50 m-3 p-6 border rounded-lg flex flex-col'>
                 

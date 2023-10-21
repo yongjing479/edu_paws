@@ -32,7 +32,7 @@ function discussionCard() {
           </div>
 
          
-          <div className="ml-3 px-5 mt-3 mb-7">
+          <div className="ml-3 px-5 mt-3 mb-7 ">
             <Button type="primary" onClick={handleCommentSubmit} className='bg-violet-700'>Submit Comment</Button>
           </div>
                 <div className='flex flex-row gap-4'>

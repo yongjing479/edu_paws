@@ -13,7 +13,7 @@ const page = () => {
     setValue(e.target.value);
   };
   return (
-    <div className='p-3 max-w-lg mx-auto'>
+    <div className='p-3 max-w-lg mx-auto text-indigo-950'>
         <h1 className='text-3xl text-center font-semibold my-7'>
             Sign Up</h1>
         <form className='flex flex-col gap-4'>
