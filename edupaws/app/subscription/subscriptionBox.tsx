@@ -48,8 +48,15 @@ function subscriptionBox() {
           </Space>
           <p className="inline-block pl-3">Peer assisted learning system</p>
         </div>
+
+      <div className="flex items-center">
+          <Space>
+            <CheckCircleTwoTone twoToneColor="#52c41a" />
+          </Space>
+          <p className="inline-block pl-3">AI tutor recommendation</p>
+        </div>
  
-        <div className="flex items-center pt-20 mt-20 ">
+        <div className="flex items-center pt-20 mt-34 ">
             <h4 className="font-bold text-violet-900 text-2xl letter-spacing-3 pt-6">RM 0</h4>
           </div>
         </div>
@@ -109,6 +116,13 @@ function subscriptionBox() {
           <Space>
             <CheckCircleTwoTone twoToneColor="#52c41a" />
           </Space>
+          <p className="inline-block pl-3">Private chat with Peer Tutor</p>
+        </div>
+
+        <div className="flex items-center">
+          <Space>
+            <CheckCircleTwoTone twoToneColor="#52c41a" />
+          </Space>
           <p className="inline-block pl-3">Live tutoring session</p>
         </div>
 
@@ -134,7 +148,7 @@ function subscriptionBox() {
 {/* third box */}
       <div className="content p-5 bg-fuchsia-50 rounded-lg shadow-md text-center">
         <img src="premium.png" className="w-10 h-11 ml-8 pb-2 absolute" />
-        <h1 className="font-bold text-violet-900 text-2xl mb-3">Anually </h1>
+        <h1 className="font-bold text-violet-900 text-2xl mb-3">Annually </h1>
         <h1 className="font-bold text-violet-900 text-2xl mb-3">Premium Pack</h1>
         <Divider />
 
@@ -172,6 +186,13 @@ function subscriptionBox() {
             <CheckCircleTwoTone twoToneColor="#52c41a" />
           </Space>
           <p className="inline-block pl-3">Peer assisted learning system</p>
+        </div>
+
+        <div className="flex items-center">
+          <Space>
+            <CheckCircleTwoTone twoToneColor="#52c41a" />
+          </Space>
+          <p className="inline-block pl-3">Private chat with Peer Tutor</p>
         </div>
 
         <div className="flex items-center">

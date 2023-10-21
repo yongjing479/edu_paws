@@ -32,7 +32,7 @@ const RedH1 = styled.h1`
 const RoundEdgeRectangleFrame = () => {
   return (
     <Frame>
-      <div className="flex">
+      <div className="flex text-indigo-950">
         <Image src="TeacherBen.png" />
         <div>
           <div className='ml-3 mt-2 font-semibold flex'>

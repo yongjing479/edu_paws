@@ -4,6 +4,7 @@ import Chapters from './chapter'
 import { Button, Divider, Space } from 'antd'
 import { } from 'styled-jsx/css'
 import Live from './live'
+import NavBar from "../home/navBar";
 
 const page = () => {
   const frameContainerStyle= {
@@ -18,7 +19,8 @@ const page = () => {
   return (
     //picture
     <div>
-      <div style={containerStyle} className='bg-purple-100 flex gap-10 justify-center'>
+      <NavBar/>
+      <div style={containerStyle} className='bg-purple-100 flex gap-10 justify-center text-indigo-950'>
       <div className="w-1/5 aspect-square relative  mt-5">
         <img className="w-full h-full rounded-full border border-purple-100 object-cover mb-5" src="TeacherBen.png" alt="Teacher-Ben" />
       </div>

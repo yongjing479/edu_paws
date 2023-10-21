@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { Button } from 'antd';
 import PlaylistButton from './PlaylistButton';
 import LikeDislikeButtons from './likeAndDIslike';
-import DiscussionCard from './discussionCard'; // Import the DiscussionCard component
+import DiscussionCard from './discussionCard';
+import NavBar from "../home/navBar";
 
 const Video = () => {
   const containerStyle = {
@@ -26,7 +27,9 @@ const Video = () => {
   ];
 
   return (
-    <div>
+    
+    <div className='text-indigo-950'>
+      <NavBar/>
       <div style={containerStyle} className="bg-purple-100 border rounded-lg shadow p-4 mt-5 ml-16 mr-16">
         <div style={videoStyle}>
           <video

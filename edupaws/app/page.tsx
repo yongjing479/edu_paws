@@ -4,7 +4,7 @@ import React from 'react';
 // Remove the assignment to 'Page' and just define the component directly
 const SignupPage = () => {
   return (
-    <div className='p-3 max-w-lg mx-auto'>
+    <div className='p-3 max-w-lg mx-auto text-indigo-950'>
       <h1 className=' text-3xl text-center font-semibold my-7'>
         Sign Up
       </h1>
