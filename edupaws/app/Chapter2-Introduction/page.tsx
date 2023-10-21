@@ -1,12 +1,28 @@
 "use client"
 import React, { useState } from 'react';
-import { Button } from 'antd';
+import { Button , Modal } from 'antd';
 import PlaylistButton from './PlaylistButton';
 import LikeDislikeButtons from './likeAndDIslike';
 import DiscussionCard from './discussionCard';
 import NavBar from "../home/navBar";
+import Link from 'next/link';
 
 const Video = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
   const containerStyle = {
     display: 'flex',
   };
@@ -71,9 +87,37 @@ const Video = () => {
           <Button type="primary" className="bg-violet-700 ml-5">Note</Button>
         </div>
       </div>
-<div className='ml-10 mr-10'>
-      <DiscussionCard />
-</div>
+      <div className='ml-10 mr-10'>
+            <DiscussionCard />
+      </div>
+     <div className="pt-5 flex justify-center mb-5">
+      <Button className=" bg-amber-200 flex justify-center" onClick={showModal}>
+          Finish
+        </Button>
+     </div>
+      
+      <Modal 
+      title="" 
+      open={isModalOpen} 
+      onOk={handleOk} 
+      onCancel={handleCancel} 
+      style={{width:"15"}} 
+      className="text-center"
+      footer={[
+        <Button key="cancel" onClick={handleCancel} className="mr-5">
+          Cancel
+        </Button>,
+        <Link href="/home"><Button key="feed"  onClick={handleOk} className="bg-violet-950 text-white custom-ok-button hover:bg-white">
+          Feed Baddie Now
+        </Button></Link>,]}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div className="w-1/5 aspect-square relative  mt-5">
+          <img className="w-full h-full rounded-full object-cover mb-5" src="https://cdn3d.iconscout.com/3d/premium/thumb/chicken-leg-7266604-5972485.png?f=webp" alt="Teacher-Ben" />
+      </div>
+          <p className='pt-18 text-xl'>You have earned a <span className="font-semibold">drumstick</span><br></br>for Baddie</p>
+        </div>
+      </Modal>
+
     </div>
   );
 };
