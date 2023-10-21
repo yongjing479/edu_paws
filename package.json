@@ -3,6 +3,9 @@
     "antd": "^5.10.1",
     "firebase": "^10.5.0",
     "react-countup": "^6.4.2",
-    "react-visibility-sensor": "^5.1.1"
+    "react-visibility-sensor": "^5.1.1",
+    "styled": "^1.0.0",
+    "styled-components": "^6.1.0",
+    "swiper": "^10.3.1"
   }
 }

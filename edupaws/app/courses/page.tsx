@@ -1,7 +1,7 @@
 import React from 'react';
-import Level from './Level';
-import Courses from './Courses';
-import Classes from './Classes';
+import Level from './courses-and-teachers/Level';
+import Courses from './courses-and-teachers/Courses';
+import Classes from './courses-and-teachers/Classes';
 
 const coursesAndTeachers = () => {
   return (

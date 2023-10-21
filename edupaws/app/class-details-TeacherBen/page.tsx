@@ -58,7 +58,7 @@ const page = () => {
       
       <Divider></Divider>
       <h2 className='flex justify-center font-semibold mt-5'>Standard 3 | Science | Chapters</h2>
-      <div className='flex justify-center'>
+      <div className='flex justify-center mb-5'>
         <Chapters></Chapters></div>
     </div>
   )
