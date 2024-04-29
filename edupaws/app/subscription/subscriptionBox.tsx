@@ -18,7 +18,7 @@ function subscriptionBox() {
           <Space>
             <CheckCircleTwoTone twoToneColor="#52c41a" />
           </Space>
-          <p className="inline-block pl-3">Limited access to all subjects</p>
+          <p className="inline-block pl-3">Full access to all subjects</p>
         </div>
 
         <div className="flex items-center">
@@ -32,7 +32,7 @@ function subscriptionBox() {
           <Space>
             <CheckCircleTwoTone twoToneColor="#52c41a" />
           </Space>
-          <p className="inline-block pl-3">Limited AI performance summary</p>
+          <p className="inline-block pl-3">AI performance summary</p>
         </div>
 
         <div className="flex items-center">
@@ -81,7 +81,7 @@ function subscriptionBox() {
             <Space>
               <CheckCircleTwoTone twoToneColor="#52c41a" />
             </Space>
-            <p className="inline-block pl-3">Full acess to all subjects</p>
+            <p className="inline-block pl-3">Full access to all subjects</p>
           </div>
 
         <div className="flex items-center">
@@ -157,7 +157,7 @@ function subscriptionBox() {
           <Space>
             <CheckCircleTwoTone twoToneColor="#52c41a" />
           </Space>
-          <p className="inline-block pl-3">Full acess to all subjects</p>
+          <p className="inline-block pl-3">Full access to all subjects</p>
         </div>
 
         <div className="flex items-center">

@@ -6,7 +6,7 @@ import TutorRecommendation from "../tutorRecommendation";
 const defaultPanes = [
   { label: "Performance Summary", children: <PerformanceSummary />, key: "1" },
   {
-    label: "AI Tutor Recommendtion",
+    label: "AI Tutor Recommendation",
     children: <TutorRecommendation />,
     key: "2",
   },

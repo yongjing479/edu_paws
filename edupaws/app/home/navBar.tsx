@@ -16,11 +16,6 @@ const items = [
     icon: <StarOutlined style={{ fontSize: '18px' }}/>,
   },
   {
-    label: 'Paws',
-    key: 'paws',
-    icon: <img src='bluepurplepaws.png' alt="Paws" style={{ width: '28px' ,height:'16px'}} />,
-  },  
-  {
     label: 'Discussion',
     key: 'discussion',
     icon: <CommentOutlined style={{ fontSize: '18px' }}/>,
