@@ -59,7 +59,7 @@ const page = () => {
     </div>
       
       <Divider></Divider>
-      <h2 className='flex justify-center font-semibold mt-5'>Form 1 | Science | Chapters</h2>
+      <h2 className='flex justify-center font-semibold mt-5  text-indigo-950'>Form 1 | Science | Chapters</h2>
       <div className='flex justify-center mb-5'>
         <Chapters></Chapters></div>
     </div>
